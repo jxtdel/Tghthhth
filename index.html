@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tekuna</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.min.css">
+</head>
+<body style="background-color: rgb(8, 8, 12);">
+    <nav class="w-100">
+        <div class="d-flex flex-column flex-md-row justify-content-between p-3">
+            <div class="text-center">
+                <h2 id="logo">Tekuna</h2>
+            </div>
+            <div class="d-flex justify-content-center align-items-center p-3 gap-3">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Blog</a>
+                <a href="#">Courses</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+    </nav>
+    <section class="container-fluid">
+        <div class="hero row p-3 mt-5">
+            <div class="col-12 col-lg-6 text-center">
+                <h1>Shape Your Digital Future</h1>
+                <p>
+                    Master in demand tech skills with hands-on projects, mentorships, and a community that cares.
+                    Start your journey from zero to hero.
+                </p>
+                <div class="d-flex justify-content-center flex-column flex-md-row">
+                    <div>
+                        <button>Explore Courses</button>
+                    </div>
+                    <div>
+                        <button id="btn2">Enroll Today</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 text-center">
+                <img src="images/hero.png" alt="people working together" class="hero-img w-100 mt-3 img-fluid">
+            </div>
+        </div>
+    </section>
+    <section class="container">
+        <div class="row p-3 mt-5" id="about">
+            <div class="col-12 col-lg-6">
+                <img src="images/ab_sec.jpg" alt="team working together" class="w-100 img-fluid">
+            </div>
+            <div class="col-12 col-lg-6">
+                <p class="text-primary">WHO WE ARE</p>
+                <h2>Beyond traditional coding bootcamps</h2>
+                <p>Bright Future Tech Academy was founded to bridge the gap between theory and real-world development. Our project-based curriculum, industry mentors and career support turn passion into profession.</p>
+                <ul id="list" class="pl-6">
+                    <li>✔100% hands-on projects</li>
+                    <li>✔Flexible learning paths</li>
+                    <li>✔Mentorship & career guidance</li>
+                    <li>✔Global student community</li>
+                </ul>
+                <button>Read More</button>
+            </div>
+        </div>
+    </section>
+    <section class="container">
+        <div class="text-center" id="popular-courses">
+                <h2>Popular Courses</h2>
+                <p>From beginner to advanced. Build real projects and standout portfolio.</p>
+            </div>
+        <div class="row g-3" id="courses">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="h-100" id="course1">
+                    <img src="images/javascript.png" alt="JavaScript programming" class="w-100 img-fluid">
+                    <div class="row mt-3" id="course1-info">
+                        <div class="col-6">
+                            <p class="text-primary letter-spacing-2px">INTERMEDIATE</p>
+                        </div>
+                        <div class="col-6 text-end">
+                            <p>10 Weeks</p>
+                        </div>
+                    </div>
+                    <h3>JavaScript Mastery</h3>
+                    <p>ES6+, DOM manipulation, async JS, APIs. Build interactive apps and dynamic dashboards.</p>
+                    <button>View Details</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="h-100" id="course2">
+                    <img src="images/html.jpg" alt="html and css development" class="w-100 img-fluid">
+                    <div class="row mt-3" id="course2-info">
+                        <div class="col-6">
+                            <p class="text-primary">BEGINNER</p>
+                        </div>
+                        <div class="col-6 text-end">
+                            <p>6 Weeks</p>
+                        </div>
+                    </div>
+                    <h3>Web Foundation: HTML & CSS</h3>
+                    <p>Master semantic HTML5, modern CSS flex/grid, and responsive design. Build 3 real websites.</p>
+                    <button>View Details</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="h-100" id="course3">
+                    <img src="images/React_Frontend.jpg" alt="frontend development" class="w-100 img-fluid">
+                    <div class="row mt-3" id="course3-info">   
+                        <div class="col-6">
+                            <p class="text-primary">ADVANCED</p>
+                        </div>
+                        <div class="col-6 text-end">
+                            <p>8 Weeks</p>
+                        </div>
+                    </div>
+                    <h3>React & Frontend Ecosystem</h3>
+                    <p>Components, hooks, state management, Next.js basics. Create a full-stack ready portfolio.</p>
+                    <button>View Details</button>
+                </div>
+            </div>
+        </div>
+        <div class="row p-3 mt-3">
+            <div class="col-sm-12 text-center mt-3">
+                <button id="view-courses">View All Courses</button>
+            </div>
+        </div>
+    </section>
+    <section class="container">
+        <div class="row g-3 p-3 mt-3" id="blog">
+            <div class="col-sm-12 text-center">
+                <h2>From Our Tech Blog</h2>
+                <p>Stay updated with industry trends, tutorials, and student success stories.</p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="h-100" id="blog1">
+                    <img src="images/Ai_blog_post.jpg" alt="ai technology" class="w-100">
+                    <div class="row mt-3">
+                        <div class="col-6">
+                            <p class="text-primary">MAY 12TH, 2026</p>
+                        </div>
+                        <div class="col-6 text-end">
+                            <p> 5 Mins</p>
+                        </div>
+                    </div>
+                    <h3>How AI is Reshaping Web Development</h3>
+                    <p>Discover the impact of AI tools on frontend workflows and how devs can leverage them.</p>
+                    <button>Read More</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="h-100" id="blog2">   
+                    <img src="images/portfolio_post.png" alt="web developer working on a project" class="w-100">
+                    <div class="row mt-3">
+                        <div class="col-6">
+                            <p class="text-primary">MARCH 16TH, 2026</p>
+                        </div>
+                        <div class="col-6 text-end">
+                            <p> 8 Mins</p>
+                        </div>
+                    </div>
+                    <h3>5 Portfolio Projects That Landed Jobs</h3>
+                    <p>Real examples from our alumni: from weather apps to e-commerce frontends that shine.</p>
+                    <button>Read More</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="h-100" id="blog3">
+                    <img src="images/git_post.png" alt="software development" class="w-100">
+                    <div class="row mt-3">
+                        <div class="col-6">
+                            <p class="text-primary">APRIL 5TH, 2026</p>
+                        </div>
+                        <div class="col-6 text-end">
+                            <p> 12 Mins</p>
+                        </div>
+                    </div>
+                    <h3>Git Workflow for Junior Devs</h3>
+                    <p>Master collaboration, pull requests, and open-source contributions with confidence.</p>
+                    <button>Read More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container">
+        <div class="d-flex align-items-center justify-content-center" id="newsletter">
+            <div class="text-center">
+                <h2>Join the Newsletter</h2>
+                <p>Get weekly tech tips, free resources and course updates. No spam, only value.</p>
+                <div class="row d-flex align-items-center justify-content-center pb-3 gap-2">
+                    <input class="col-sm-12 col-md-8 col-lg-9" type="email" placeholder="Your Best Email">
+                    <button class="col-sm-12 col-md-2 col-lg-2">Submit</button>
+                </div>
+                <p id="unsubscribe">We respect your privacy. Unsubscribe anytime.</p>
+            </div>
+        </div>
+    </section>
+    <section class="container">
+        <div class="row p-3 mt-3" id="contact">
+            <div class="col-sm-12 col-md-12 col-lg-6">
+                <div class="col-12 text-center">
+                    <h2>Let's talk technology</h2>
+                    <p>Have questions about courses, career paths, or patnership? Our team will respond within 24h</p>
+                </div>
+                <div class="col-12 col-lg-6 p-3 mt-3" id="contact-info">
+                    <p>📍 No, 8Hadiza Plaza</p>
+                    <p>✉ hellotekuna.com</p>
+                    <p>📞 +234 (567) 890-1234</p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 p-3 mt-3" id="contact-form">
+                <label for="name">First Name</label>
+                <input name="name" type="text" placeholder="Your First Name">
+                <label for="email">Email Address</label>
+                <input name="email" type="email" placeholder="example@gmail.com">
+                <label for="message">Message</label>
+                <textarea rows="3"></textarea>
+                <button>Send Message</button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row text-center text-lg-start">
+                <div class="col-sm-12 col-md-12 col-lg-5">
+                    <div class="logo">
+                        <h2>Tekuna</h2>
+                        <p>Empowering the next generation of developers with practical skills, mentorship, and real-world experience</p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-2 mb-3">
+                    <h3>Quick Links</h3>
+                    <div class="d-flex flex-row flex-lg-column gap-2 justify-content-center">
+                        <a href="#">Home</a>
+                        <a href="#">About Us</a>
+                        <a href="#">Courses</a>
+                        <a href="#">Blog</a>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-2 mb-3">
+                    <h3>Resources</h3>
+                    <div class="d-flex flex-row flex-lg-column gap-2 justify-content-center">
+                        <a href="#">Student Hub</a>
+                        <a href="#">Scholarship</a>
+                        <a href="#">FAQ</a>
+                        <a href="#">Career Support</a>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-3">
+                    <div>
+                        <h3>Legal</h3>
+                        <div class="d-flex flex-row flex-lg-column gap-2 justify-content-center">
+                            <a href="#">Privacy</a>
+                            <a href="#">Terms</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 text-center p-3" id="copyright">
+            <p>&copy 2026 Tekuna. All rights reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
